@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import logo from '../images/picofme.jpg';
 
 const mainPage = () => {
   return (
@@ -16,7 +17,7 @@ const mainPage = () => {
                 <div className="col-md-3">
                   <img
                     id="pic"
-                    src="./images/picOfMe.jpg"
+                    src={ logo }
                     alt="profile pic"
                     width="100%"
                     height="auto%"
