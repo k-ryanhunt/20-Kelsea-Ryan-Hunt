@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 
 const mainPage = () => {
@@ -10,7 +9,7 @@ const mainPage = () => {
         <div className="col-md-1"></div>
         <div className="col-md-3">
           <span id="name" className="navbar-brand mb-0 h1">
-            K E L S E A   R Y A N
+            Kelsea Ryan Hunt
           </span>
         </div>
         <div className="col-md-3"></div>

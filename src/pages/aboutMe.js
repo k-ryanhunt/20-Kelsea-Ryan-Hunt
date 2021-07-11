@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import logo from '../images/picofme.jpg';
 
 const mainPage = () => {
