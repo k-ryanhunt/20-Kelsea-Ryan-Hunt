@@ -3,62 +3,22 @@ import "../App.css";
 
 const Contact = () => {
   return (
-    <div className="contactApp">
-      <div className="container">
-        <div className="card">
-          <div className="card-header">
-            <h3>Contact</h3>
-          </div>
-          <div className="card-body">
-            <blockquote className="blockquote mb-0">
-              <div className="input-group">
-                <div className="input-group-prepend">
-                  <span className="input-group-text">First and last name</span>
-                </div>
-                <input
-                  type="text"
-                  aria-label="First name"
-                  className="form-control"
-                />
-                <input
-                  type="text"
-                  aria-label="Last name"
-                  className="form-control"
-                />
-              </div>
-              <div className="input-group mb-3">
-                <div className="input-group-prepend">
-                  <span
-                    className="input-group-text"
-                    id="inputGroup-sizing-default"
-                  >
-                    Email
-                  </span>
-                </div>
-                <input
-                  type="text"
-                  className="form-control"
-                  aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default"
-                />
-              </div>
-              <div className="input-group mb-3">
-                <div className="input-group-prepend">
-                  <span
-                    className="input-group-text"
-                    id="inputGroup-sizing-default"
-                  >
-                    Message
-                  </span>
-                </div>
-                <textarea name="input" id="input" cols="30" rows="5"></textarea>
-              </div>
-              <input className="btn btn-primary" type="submit" value="Submit" />
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
+    <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+    <div class="col l4 offset-l1 s12">
+    <h4 class="white-text" id="contactMe">Contact Me</h4>
+    <ul>
+      <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="#!"><i class="material-icons" id="icon">phonelink_ring</i>843-822-9802</a></li>
+      <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="mailto:hunt.kelsearyan@gmail.com"><i class="material-icons" id="icon">email</i>hunt.kelsearyan@gmail.com</a></li>
+      <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="../images/resume2.pdf" target="_blank"><i class="material-icons" id="icon">content_copy</i>Resume</a></li>
+      <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="https://github.com/k-ryanhunt"><i class="material-icons" id="icon">code</i>GitHub Portfolio</a></li>
+      <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="https://www.linkedin.com/in/k-ryanhunt/"><i class="material-icons" id="icon">group_add</i>LinkedIn Profile</a></li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  </footer>
   );
 };
 export default Contact;

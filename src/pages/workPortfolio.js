@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import project2 from "../images/projectTwo.png";
+import project1 from "../images/projectOne.png";
 
 const portfolio = () => {
   return (
@@ -9,15 +11,14 @@ const portfolio = () => {
       <div class="col s4">
         <div class="card medium hoverable">
           <div class="card-image">
-            <img src="./assets/Images/projectOne.png" alt="Screenshot of my first group project"/>
-            <span class="card-title"><i class="material-icons">star</i>Featured Project</span>
+            <img src={ project2 } alt="Screenshot of my first group project"/>
           </div>
           <div class="card-content">
-            <p>Project One</p>
+            <p>tripr</p>
           </div>
           <div class="card-action">
-            <a target="_blank" href="https://github.com/k-ryanhunt/Project-One-Concert-Finder"><i class="material-icons" id="icon">code</i></a>
-            <a target="_blank" href="https://baystaub.github.io/concerts-in-covid/"><i class="material-icons" id="icon">personal_video</i></a>
+            <a href="https://github.com/k-ryanhunt/Project-2-Travel-Green"><i class="material-icons" id="icon">code</i></a>
+            <a href="https://tripr-project2.herokuapp.com/"><i class="material-icons" id="icon">personal_video</i></a>
             <a href="https://github.com/k-ryanhunt"><i class="material-icons" id="icon">person_add</i></a>
           </div>
         </div>
@@ -27,15 +28,14 @@ const portfolio = () => {
       <div class="col s4">
         <div class="card medium hoverable">
           <div class="card-image">
-            <img src="./assets/Images/projectTwo.png" alt="Screenshot of my first group project"/>
-            <span class="card-title"><i class="material-icons">star</i>Featured Project</span>
+            <img src={ project1 } alt="Screenshot of my first group project"/>
           </div>
           <div class="card-content">
-            <p>Project Two</p>
+            <p>Project One</p>
           </div>
           <div class="card-action">
-            <a target="_blank" href="https://github.com/k-ryanhunt/Project-2-Travel-Green"><i class="material-icons" id="icon">code</i></a>
-            <a target="_blank" href="https://tripr-project2.herokuapp.com/"><i class="material-icons" id="icon">personal_video</i></a>
+            <a href="https://github.com/k-ryanhunt/Project-One-Concert-Finder"><i class="material-icons" id="icon">code</i></a>
+            <a href="https://baystaub.github.io/concerts-in-covid/"><i class="material-icons" id="icon">personal_video</i></a>
             <a href="https://github.com/k-ryanhunt"><i class="material-icons" id="icon">person_add</i></a>
           </div>
         </div>
