@@ -1,0 +1,128 @@
+div#root {
+  background-color: thistle;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.navbar {
+  background-color: transparent;
+  font-family: 'Amatic';
+  text-decoration: none;
+}
+
+.brand-logo.center {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 45px;
+  background: -webkit-linear-gradient(cyan, greenyellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.col.s4 {
+  padding: 9px;
+}
+
+.card.hoverable {
+  background: antiquewhite;
+}
+
+.card-image {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 15%;
+}
+
+.card-image:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
+  opacity: 100%;
+}
+
+span.card-title,
+.card-content,
+.card-action {
+  font-family: "Caveat Brush";
+  align-items: center;
+  text-align: center;
+}
+
+.card-content {
+  font-size: 1.25rem;
+}
+
+div.card-header,
+div.card-body {
+  background-color: thistle;
+}
+
+#contactInfo {
+  padding: 10px;
+}
+
+#icon {
+  font-size: 25px;
+  background: -webkit-linear-gradient(cyan, greenyellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px 4px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  text-align: center;
+  background-color: thistle;
+  color: ;
+}
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
+  background-color: thistle;
+  color: rgb(255, 91, 31);
+}
+
+a {
+  font-family: 'Cousine';
+  text-decoration: none;
+}
+
+nav > div > a {
+  font-family: 'Zen Loop', cursive;
+  font-weight: bold;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+i {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Cousine';
+  font-size: medium;
+  text-decoration: none;
+}
+
+.page-footer {
+  background-color: #182c61;
+}
+
+div {
+  font-family: 'Over the Rainbow';
+}

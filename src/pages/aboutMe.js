@@ -4,27 +4,25 @@ import logo from '../images/picofme.jpg';
 
 const mainPage = () => {
   return (
-    <div className="aboutApp">
+<div className="aboutApp">
       <div className="container">
         <div className="card">
-          <div className="card-header">
-            <h3>About Me</h3>
+          <div>
+            <h1>Kelsea Ryan Hunt</h1>
+            <h2>UX/UI Web Designer</h2>
           </div>
           <div className="card-body">
-            <blockquote className="blockquote mb-0">
               <div className="row">
                 <div className="col-md-3">
                   <img
                     id="pic"
-                    src={ logo }
+                    src= {logo}
                     alt="profile pic"
                     width="100%"
                     height="auto%"
                   />
                 </div>
-
-                <div className="col-md-8">
-                  <p>
+                <p>
                     As someone who has always had a passion for creativity, I
                     have explored many different jobs and opportunities to try
                     and find my niche. I originally started my years after high
@@ -78,9 +76,8 @@ const mainPage = () => {
                     bettering a product or website for the user is thrilling to
                     me.
                   </p>
-                </div>
+                <div className="col-md-8"></div>
               </div>
-            </blockquote>
           </div>
         </div>
       </div>

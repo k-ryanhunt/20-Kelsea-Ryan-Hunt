@@ -1,30 +1,23 @@
 import React from "react";
 import "../../App.css";
 import { Link } from "react-router-dom";
+import "../../style.css";
 
 const mainPage = () => {
   return (
-    <div className="navApp">
-      <nav className="navbar">
-        <div className="col-md-1"></div>
-        <div className="col-md-3">
-          <span id="name" className="navbar-brand mb-0 h1">
-            Kelsea Ryan Hunt
-          </span>
-        </div>
-        <div className="col-md-3"></div>
-        <div className="col-md-1">
-          <Link to="/About">About Me</Link>
-        </div>
-        <div className="col-md-1">
-          <Link to="/Portfolio">Portfolio</Link>
-        </div>
-        <div className="col-md-1">
-          <Link to="/Contact">Contact</Link>
-        </div>
-        <div className="col-md-1"></div>
-      </nav>
-    </div>
+    <nav className="navbar">
+      <div className="col-md-1"></div>
+      <div className="col-md-1">
+        <Link to="/About">HOME</Link>
+      </div>
+      <div className="col-md-1">
+        <Link to="/Portfolio">PORTFOLIO</Link>
+      </div>
+      <div className="col-md-1">
+        <Link to="/Contact">CONTACT</Link>
+      </div>
+      <div className="col-md-1"></div>
+    </nav>
   );
 };
 export default mainPage;
