@@ -1,11 +1,20 @@
 import React from "react";
 import "../App.css";
-import logo from "../images/picofme.jpg";
+import photo from "../images/picofme.jpg";
+import pdf from "../../src/images/Kelsea Hunt - Resume.pdf";
+import logo from "../images/logo512.png";
 
 const Contact = () => {
   return (
     <footer class="page-footer">
-      <img class="center-block" id="pic" src={ logo } alt="profile pic" width="25%" height="auto" />
+      <img
+        class="center-block"
+        id="pic"
+        src={photo}
+        alt="profile pic"
+        width="25%"
+        height="auto"
+      />
       <div class="container">
         <div class="row">
           <div class="col l4 s12">
@@ -50,8 +59,7 @@ const Contact = () => {
                         <a
                           id="contactInfo"
                           class="grey-text text-lighten-3 valign-wrapper"
-                          href="src/images/resume.pdf"
-                          target="_blank"
+                          href={pdf}
                         >
                           <i class="material-icons" id="icon">
                             content_copy
@@ -99,6 +107,14 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <img
+        class="center-block"
+        id="pic"
+        src={logo}
+        alt="profile pic"
+        width="15%"
+        height="auto"
+      />
     </footer>
   );
 };

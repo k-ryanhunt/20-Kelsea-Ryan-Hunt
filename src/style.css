@@ -1,5 +1,5 @@
 html > body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 16px;
   display: flex;
   min-height: 100vh;
@@ -13,11 +13,9 @@ main {
 
 .navbar {
   background-color: #212121;
-  font-family: 'Amatic';
+  font-family: "Amatic";
   text-decoration: none;
 }
-
-
 
 div.col.s4 {
   padding: 9px;
@@ -72,7 +70,7 @@ div.card-panel {
 }
 
 header > h2 {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-weight: 700;
   text-align: center;
   color: white;
@@ -83,7 +81,7 @@ header > h2 {
 
 header > h1,
 h1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   font-size: 60px;
   text-align: center;
   margin-top: 60px;
@@ -96,12 +94,12 @@ div#root {
 }
 
 a {
-  font-family: 'Zen Loop';
+  font-family: "Zen Loop";
   text-decoration: none;
 }
 
 nav > div > a {
-  font-family: 'Zen Loop', cursive;
+  font-family: "Zen Loop", cursive;
   font-weight: bold;
   font-size: xx-large;
   text-decoration: none;
@@ -126,7 +124,7 @@ p {
 }
 
 #contactInfo {
-  font-family: 'Zen Loop', cursive;
+  font-family: "Zen Loop", cursive;
   font-weight: bold;
   font-size: xx-large;
   text-decoration: none;
@@ -134,5 +132,4 @@ p {
 
 #pic {
   border-radius: 500px;
-  
 }

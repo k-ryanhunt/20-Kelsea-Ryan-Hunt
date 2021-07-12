@@ -9,6 +9,7 @@ import pwGenerator from "../images/generator.png";
 import weatherDash from "../images/weatherDashboard.png";
 import teamGenerator from "../images/Team.png";
 import eCommerceFiller from "../images/GRAVE.jpg";
+import logo from "../images/logo512.png";
 
 const portfolio = () => {
   return (
@@ -255,6 +256,14 @@ const portfolio = () => {
           </div>
         </div>
       </div>
+      <img
+        class="center-block"
+        id="pic"
+        src={logo}
+        alt="profile pic"
+        width="15%"
+        height="auto"
+      />
     </div>
   );
 };
