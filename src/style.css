@@ -30,7 +30,7 @@ div.col.s4 {
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 15%;
+  opacity: 75%;
 }
 
 .card-image:hover {
