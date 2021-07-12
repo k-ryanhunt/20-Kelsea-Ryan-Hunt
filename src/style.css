@@ -79,12 +79,18 @@ header > h2 {
   margin-bottom: 30px;
 }
 
-header > h1,
-h1 {
+header > h1 {
   font-family: "Homemade Apple", cursive;
   font-size: 60px;
   text-align: center;
   margin-top: 60px;
+  color: #d2386c;
+}
+
+h1 {
+  font-family: "Homemade Apple", cursive;
+  font-size: 60px;
+  text-align: center;
   color: #d2386c;
 }
 
