@@ -25,22 +25,6 @@ div.col.s4 {
   background-color: #212121;
 }
 
-.card-image {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  filter: grayscale(100%);
-  opacity: 75%;
-}
-
-.card-image:hover {
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  filter: none;
-  opacity: 100%;
-}
-
 span.card-title,
 .card-content,
 .card-action {
