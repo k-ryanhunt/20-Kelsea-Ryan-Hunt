@@ -1,26 +1,13 @@
 import React from "react";
 import "../App.css";
-import logo from '../images/picofme.jpg';
 
 const mainPage = () => {
   return (
-<div className="aboutApp">
       <div className="container">
         <div className="card">
-          <div>
-            <h1>Kelsea Ryan Hunt</h1>
-            <h2>UX/UI Web Designer</h2>
-          </div>
           <div className="card-body">
               <div className="row">
                 <div className="col-md-3">
-                  <img
-                    id="pic"
-                    src= {logo}
-                    alt="profile pic"
-                    width="100%"
-                    height="auto%"
-                  />
                 </div>
                 <p>
                     As someone who has always had a passion for creativity, I
@@ -81,7 +68,6 @@ const mainPage = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 export default mainPage;

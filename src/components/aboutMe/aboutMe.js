@@ -6,8 +6,8 @@ function body(props) {
     <div className="container">
       <div className="card">
         <div className="card-header">
-          <h3>Kelsea Ryan Hunt</h3>
-          <h4>UX/UI Web Designer</h4>
+          <h1>Kelsea Ryan Hunt</h1>
+          <h2>UX/UI Web Designer</h2>
         </div>
         <div className="card-body">
           <div className="row">

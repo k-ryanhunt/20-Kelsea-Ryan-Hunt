@@ -1,13 +1,10 @@
-div#root {
-  background-color: thistle;
-}
-
-body {
+html > body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 16px;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #212121;
 }
 
 main {
@@ -15,26 +12,19 @@ main {
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: #212121;
   font-family: 'Amatic';
   text-decoration: none;
 }
 
-.brand-logo.center {
-  font-family: 'Courier New';
-  font-weight: bold;
-  font-size: 45px;
-  background: -webkit-linear-gradient(cyan, greenyellow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 div.col.s4 {
   padding: 9px;
 }
 
 .card.hoverable {
-  background: antiquewhite;
+  background-color: #212121;
 }
 
 .card-image {
@@ -56,7 +46,6 @@ div.col.s4 {
 span.card-title,
 .card-content,
 .card-action {
-  font-family: "Caveat Brush";
   align-items: center;
   text-align: center;
 }
@@ -66,39 +55,48 @@ span.card-title,
 }
 
 div.card-header,
-div.card-body {
-  background-color: thistle;
+div.card-body,
+div.card-panel {
+  background-color: #212121;
 }
 
 #contactInfo {
   padding: 10px;
+  text-align: center;
 }
 
 #icon {
-  font-size: 25px;
-  background: -webkit-linear-gradient(cyan, greenyellow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 5px 4px;
+  font-size: 40px;
+  padding-right: 20px;
+  color: #e9897e;
 }
 
-h2 {
+header > h2 {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   text-align: center;
-  background-color: thistle;
-  color: ;
+  color: white;
+  margin-left: 250px;
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
 
+header > h1,
 h1 {
   font-family: 'Homemade Apple', cursive;
+  font-size: 60px;
   text-align: center;
-  background-color: thistle;
-  color: rgb(255, 91, 31);
+  margin-top: 60px;
+  color: #d2386c;
+}
+
+header,
+div#root {
+  background-color: #212121;
 }
 
 a {
-  font-family: 'Cousine';
+  font-family: 'Zen Loop';
   text-decoration: none;
 }
 
@@ -107,22 +105,34 @@ nav > div > a {
   font-weight: bold;
   font-size: xx-large;
   text-decoration: none;
+  color: #e9897e;
 }
 
 i {
   text-decoration: none;
+  font-size: 50px;
 }
 
 p {
-  font-family: 'Cousine';
-  font-size: medium;
+  font-family: "Roboto Condensed";
+  color: #c5e1a5;
+  font-size: large;
   text-decoration: none;
+  text-align: center;
 }
 
 .page-footer {
-  background-color: #182c61;
+  background-color: #212121;
 }
 
-div {
-  font-family: 'Over the Rainbow';
+#contactInfo {
+  font-family: 'Zen Loop', cursive;
+  font-weight: bold;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#pic {
+  border-radius: 500px;
+  
 }

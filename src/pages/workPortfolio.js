@@ -20,7 +20,7 @@ const portfolio = () => {
               <img src={project2} alt="Screenshot of my first group project" />
             </div>
             <div class="card-content">
-              <p>tripr</p>
+              <h1>tripr</h1>
             </div>
             <div class="card-action">
               <a href="https://github.com/k-ryanhunt/Project-2-Travel-Green">
@@ -49,7 +49,7 @@ const portfolio = () => {
               <img src={project1} alt="Screenshot of my first group project" />
             </div>
             <div class="card-content">
-              <p>Post Covid Concerts</p>
+              <h1>Post Covid Concerts</h1>
             </div>
             <div class="card-action">
               <a href="https://github.com/k-ryanhunt/Project-One-Concert-Finder">
@@ -79,7 +79,7 @@ const portfolio = () => {
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Timed Quiz</p>
+              <h1>Timed Quiz</h1>
             </div>
             <div class="card-action">
               <a href="https://github.com/k-ryanhunt/Timed-Quiz">
@@ -108,7 +108,7 @@ const portfolio = () => {
                 <span class="card-title"></span>
               </div>
               <div class="card-content">
-                <p>Day Planner</p>
+                <h1>Day Planner</h1>
               </div>
               <div class="card-action">
                 <a href="https://github.com/k-ryanhunt/Day-Planner">
@@ -138,7 +138,7 @@ const portfolio = () => {
                 <span class="card-title"></span>
               </div>
               <div class="card-content">
-                <p>Password Generator</p>
+                <h1>Password Generator</h1>
               </div>
               <div class="card-action">
                 <a href="https://github.com/k-ryanhunt/Password-Generator">
@@ -170,7 +170,7 @@ const portfolio = () => {
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Weather Dashboard</p>
+              <h1>Weather Dashboard</h1>
             </div>
             <div class="card-action">
               <a href="https://github.com/k-ryanhunt/Weather-Dashboard">
@@ -203,7 +203,7 @@ const portfolio = () => {
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Team Generator</p>
+              <h1>Team Generator</h1>
             </div>
             <div class="card-action">
               <a href="https://github.com/k-ryanhunt/Team-Profile-Generator">
@@ -233,7 +233,7 @@ const portfolio = () => {
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>E-Commerce Back End</p>
+              <h1>E-Commerce Back End</h1>
             </div>
             <div class="card-action">
               <a href="https://github.com/k-ryanhunt">
