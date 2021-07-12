@@ -1,3 +1,27 @@
+## Kelsea Ryan Hunt Portfolio
+
+This is my latest edition of my coding portfolio created with React.
+
+Live website: 
+
+![Screenshot](src/images/ss1.png)
+
+![Screenshot](src/images/ss2.png)
+
+![Screenshot](src/images/ss3.png)
+
+## LinkedIn
+
+https://www.linkedin.com/in/k-ryanhunt/
+
+## GitHub
+
+https://github.com/k-ryanhunt
+
+## Licenses
+
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
